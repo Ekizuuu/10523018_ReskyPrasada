@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Warna latar belakang halaman */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 960px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  background-color: #007bff; /* Warna header */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.logo {
+  width: 200px; /* Ukuran logo */
+  margin-bottom: 10px;
+}
+
+.navigation {
+  background-color: #eee; /* Warna navigasi */
+  padding: 10px;
+  text-align: center;
+}
+
+.navigation a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: #333;
+  border-radius: 3px;
+}
+
+.navigation a:hover {
+  background-color: #ddd;
+}
+
+.content {
+  padding: 20px;
+}
+
+.welcome {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #333; /* Warna footer */
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
